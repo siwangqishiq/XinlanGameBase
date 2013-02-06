@@ -17,6 +17,11 @@ import android.view.Display;
 import android.view.Window;
 import android.view.WindowManager;
 
+/**
+ * MainActivity
+ * @author Panyi
+ *
+ */
 public class MainActivity extends Activity {
 
 	public PowerManager.WakeLock wakeLock;
