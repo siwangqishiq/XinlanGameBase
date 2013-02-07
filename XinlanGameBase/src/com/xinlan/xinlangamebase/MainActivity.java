@@ -19,7 +19,7 @@ import android.view.WindowManager;
 
 /**
  * MainActivity
- * @author Panyi
+ * @author Panyis
  *
  */
 public class MainActivity extends Activity {
