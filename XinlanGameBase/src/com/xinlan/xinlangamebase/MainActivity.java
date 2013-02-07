@@ -19,7 +19,7 @@ import android.view.WindowManager;
 
 /**
  * MainActivity
- * @author Panyis
+ * @author Panyi
  *
  */
 public class MainActivity extends Activity {
@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
 		wakeLock = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK,
 				"PowerLight");
-		wakeLock.acquire();//请求屏幕常亮
+		wakeLock.acquire();//请求屏幕常亮s
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
