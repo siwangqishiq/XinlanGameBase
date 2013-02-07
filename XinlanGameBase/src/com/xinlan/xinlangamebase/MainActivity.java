@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
 		wakeLock = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK,
 				"PowerLight");
-		wakeLock.acquire();// «Î«Û∆¡ƒª≥£¡¡
+		wakeLock.acquire();//ËØ∑Ê±ÇÂ±èÂπïÂ∏∏‰∫Æ
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -91,7 +91,7 @@ public class MainActivity extends Activity {
 		}
 
 		@Override
-		public void run() {// ¬ﬂº≠œﬂ≥Ã
+		public void run() {// ÔøΩﬂºÔøΩÔøΩﬂ≥ÔøΩ
 			initGame();
 			while (isRunning) {
 				//System.out.println(screenW+","+screenH);

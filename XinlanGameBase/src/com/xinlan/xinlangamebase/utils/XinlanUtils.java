@@ -15,7 +15,7 @@ public class XinlanUtils {
 			e.printStackTrace();
 		}
 		//产生色块取代没有的图片
-		final int size = 0x10000;
+		final int size = 16;
 		int[] colors = new int[size * size];
 		for (int i = 0; i < size; i++) {
 			colors[i * size + i] = 0xffff0000;
